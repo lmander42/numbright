@@ -5,7 +5,7 @@ This is a stand-alone project. It is designed to adjust the brightness on an Asu
 This project was inspired by a post I saw on stackoverflow and then customized to my liking.  
 
 File Groundwork:   
-    1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
+* 1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
     2) Make sure $HOME/bin is in the PATH variable  
 	check this by looking at the path setting in your bash login file  
     3) Make setbright, numbright, incrbright, & decrbright executable  

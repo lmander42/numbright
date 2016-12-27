@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Decreases screen brightness
+# Is for a keybinding
+numbright -1
