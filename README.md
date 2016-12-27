@@ -7,7 +7,7 @@ This project was inspired by a post I saw on stackoverflow and then customized t
 File Groundwork: 
     1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
     2) Make sure $HOME/bin is in the PATH variable  
-         check this by looking at the path setting in you bash login file  
+	check this by looking at the path setting in your bash login file  
     3) Make setbright, numbright, incrbright, & decrbright executable  
          if you don't know how, google, "sudo chmod +x"  
     4) Open /etc/default/grub as a superuser  
