@@ -2,4 +2,5 @@
 #
 # Increases screen brightness
 # Is for a keybinding
-numbright +1
+# Only increase by 1 b/c acpi tends to have low max brightness 
+numbright +1 
