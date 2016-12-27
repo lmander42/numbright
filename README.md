@@ -4,7 +4,7 @@ This is a stand-alone project. It is designed to adjust the brightness on an Asu
 
 This project was inspired by a post I saw on stackoverflow and then customized to my liking.  
 
-File Groundwork: 
+File Groundwork:   
     1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
     2) Make sure $HOME/bin is in the PATH variable  
 	check this by looking at the path setting in your bash login file  
@@ -24,12 +24,12 @@ File Groundwork:
     
     
 Setup: 
-    1) Bind incrbright to the key combination you want to brighten your screen  
+* 1) Bind incrbright to the key combination you want to brighten your screen  
     2) Bind decrbright to the key combination you want to dim your screen  
     3) Restart  
     The keys should now adjust brightness  
 
-Use in Terminal Examples:
+Use in Terminal Examples:  
     ONLY USE INTEGER VALUES FOR INPUTS
 
     numbright 3      - sets acpi_video0/brightness to 3 (integer values [1, 10])
@@ -41,7 +41,7 @@ Use in Terminal Examples:
     setbright -15    - decreases screen brightness by 15 percentage POINTS
 
 
-Sources:
+Sources:  
     https://askubuntu.com/questions/149054/how-to-change-lcd-brightness-from-command-line-or-via-script
     https://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop
     https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
