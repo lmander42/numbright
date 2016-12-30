@@ -1,6 +1,0 @@
-#!/bin/bash
-#
-# Increases screen brightness
-# Is for a keybinding
-# Only increase by 1 b/c acpi tends to have low max brightness 
-numbright +1 

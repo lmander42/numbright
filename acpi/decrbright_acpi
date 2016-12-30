@@ -1,6 +1,0 @@
-#!/bin/bash
-#
-# Decreases screen brightness
-# Is for a keybinding
-# Only decrease by 1 b/c acpi gen has low max brightness
-numbright -1
