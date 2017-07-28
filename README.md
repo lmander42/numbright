@@ -15,8 +15,10 @@ File Groundwork:
          to     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi="  
          save and close the file  
          this will activate the fn+F5 and fn+F6 key combinations  
-    5) Restart  
-    6) Check which directories exist in /sys/class/backlight  
+    5) Run 'sudo update-grub' in a terminal
+    6) Install xbacklight with apt
+    7) Restart  
+    8) Check which directories exist in /sys/class/backlight  
          The script numbright is designed to change /sys/class/backlight/acpi_video0/brightness because that brightness file uses the integers 1-10, which makes setting the brightness step size much easier.   
          Depending on your file system configuration, you may need to change the directory hierarchy.  
          A common directory is /sys/class/backligt/intel_backlight/ The setbright script is an older script that interfaces with it.  
