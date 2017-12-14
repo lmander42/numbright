@@ -2,7 +2,7 @@
 
 Repository for controlling screen brightness on an Asus Zenbook running Ubuntu. This project was inspired by a post I saw on stackoverflow and then customized to my liking.  
 
-#### File Setup
+## File Setup
     1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
     2) Make sure $HOME/bin is in the PATH variable  
 	check this by looking at the path setting in your bash login file  
@@ -23,13 +23,13 @@ Repository for controlling screen brightness on an Asus Zenbook running Ubuntu. 
          To use setbright instead of numbright, update incrbright and decrbright to interface with setbright and pass the appropriate parameters (refer to the comments in setbright to do that)  
     
     
-#### Setup
+## Setup
  * Bind incrbright to the key combination you want to brighten your screen  
  * Bind decrbright to the key combination you want to dim your screen  
  * Restart  
  *   The keys should now adjust brightness  
 
-#### Usage Examples
+## Usage Examples
 
 ```
 numbright 3      - sets acpi_video0/brightness to 3 (integer values [1, 10])
