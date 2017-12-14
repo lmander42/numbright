@@ -1,10 +1,8 @@
-Author: Marion Anderson  
+# numbright
 
-This is a stand-alone project. It is designed to adjust the brightness on an Asus Zenbook UX305UAB running Ubuntu 16 using the fn+F5 and fn+F6 keybindings. You can ignore File Groundwork Steps 4 & 5 if you want to use other key bindings, or none at all.  
+Repository for controlling screen brightness on an Asus Zenbook running Ubuntu. This project was inspired by a post I saw on stackoverflow and then customized to my liking.  
 
-This project was inspired by a post I saw on stackoverflow and then customized to my liking.  
-
-File Groundwork:   
+#### File Setup
     1) Put setbright, numbright, incrbright, & decrbright in ~/bin  
     2) Make sure $HOME/bin is in the PATH variable  
 	check this by looking at the path setting in your bash login file  
@@ -25,26 +23,30 @@ File Groundwork:
          To use setbright instead of numbright, update incrbright and decrbright to interface with setbright and pass the appropriate parameters (refer to the comments in setbright to do that)  
     
     
-Setup: 
-* 1) Bind incrbright to the key combination you want to brighten your screen  
-    2) Bind decrbright to the key combination you want to dim your screen  
-    3) Restart  
-    The keys should now adjust brightness  
+#### Setup
+ * Bind incrbright to the key combination you want to brighten your screen  
+ * Bind decrbright to the key combination you want to dim your screen  
+ * Restart  
+ *   The keys should now adjust brightness  
 
-Use in Terminal Examples:  
-    ONLY USE INTEGER VALUES FOR INPUTS
+#### Usage Examples
 
-    numbright 3      - sets acpi_video0/brightness to 3 (integer values [1, 10])
-    numbright +1     - increases acpi_video0/brightness value by 1
-    numbright -1     - decreases acpi_video0/brightness value by 1
+```
+numbright 3      - sets acpi_video0/brightness to 3 (integer values [1, 10])
+numbright +1     - increases acpi_video0/brightness value by 1
+numbright -1     - decreases acpi_video0/brightness value by 1
 
-    setbright 42     - sets screen brightness to 42% of maximum brightness
-    setbright +10    - increases screen brightness by 10 percentage POINTS
-    setbright -15    - decreases screen brightness by 15 percentage POINTS
+setbright 42     - sets screen brightness to 42% of maximum brightness
+setbright +10    - increases screen brightness by 10 percentage points
+setbright -15    - decreases screen brightness by 15 percentage points
+```
 
+## Author
 
-Sources:  
-    https://askubuntu.com/questions/149054/how-to-change-lcd-brightness-from-command-line-or-via-script
-    https://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop
-    https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
-    https://robots.thoughtbot.com/how-to-write-a-great-readme
+Marion Anderson - [lmander42](https://github.com/lmander42)
+
+## Acknowledgements/References
+ * https://askubuntu.com/questions/149054/how-to-change-lcd-brightness-from-command-line-or-via-script
+  * https://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop
+ * https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
+ * https://robots.thoughtbot.com/how-to-write-a-great-readme
