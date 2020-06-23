@@ -43,7 +43,7 @@ setbright -15    - decreases screen brightness by 15 percentage points
 
 ## Author
 
-Marion Anderson - [lmander42](https://github.com/lmander42)
+Marion Anderson - [lowdrant](https://github.com/lowdrant)
 
 ## Acknowledgements/References
  * https://askubuntu.com/questions/149054/how-to-change-lcd-brightness-from-command-line-or-via-script
